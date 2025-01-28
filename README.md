@@ -2,11 +2,16 @@
 
 Dato il progetto Maven, si chiede di:    
 
-- Scaricare il codice sorgente nel propRio computer usando Git;
+- Scaricare il codice sorgente nel proprio computer usando Git;
 - Il progetto Maven deve essere impostato con queste coordinate:
-	- Versione: **1.0.0**;
-	- Nome: **ProvaIngSw_{vostra matricola}**;
-	- Gruppo: uguale al package del progetto.
+	- Versione: **1.0**;
+ 	- Artifact: esame-ingsw
+	- Gruppo: Package del progetto.
+ - Modificare le informazioni generali del progetto come segue:
+	- Nome del progetto: "Esame Ingegneria 2024"
+	- URL: https://demacs.unical.it/
+	- Descrizione del progetto: Inserire una descrizione adeguata e interessante del progetto.
+	- Anno di inizio del progetto: 2024
 
 - Testare la classe **Inventory.java** utilizzando **JUNIT**. È richiesto l'uso di @BeforeEach o @BeforeAll a seconda dei casi;
 
