@@ -5,7 +5,7 @@ Dato il progetto Maven, si chiede di:
 - Scaricare il codice sorgente nel proprio computer usando Git;
 - Il progetto Maven deve essere impostato con queste coordinate:
 	- Versione: **1.0**;
- 	- Artifact: esame-ingsw
+ 	- Artefatto: esame-ingsw
 	- Gruppo: Package del progetto.
  - Modificare le informazioni generali del progetto come segue:
 	- Nome del progetto: "Esame Ingegneria 2024"
@@ -13,9 +13,9 @@ Dato il progetto Maven, si chiede di:
 	- Descrizione del progetto: Inserire una descrizione adeguata e interessante del progetto.
 	- Anno di inizio del progetto: 2024
 
-- Testare la classe **Inventory.java** utilizzando **JUNIT**. È richiesto l'uso di @BeforeEach o @BeforeAll a seconda dei casi;
+- Testare la classe **Inventory.java** utilizzando **JUNIT**. Si consiglia l'uso di @BeforeEach, @BeforeAll, @AfterEach, o @BAfterAll a seconda dei casi;
 
-- Creare un nuovo branch con nome **"dev"** per scrivere i tests;
+- Tutti i test devono essere scritti in un branch Creare un nuovo branch con nome **"dev"** per scrivere i tests;
   
 - Fare il merge del branch **"dev"** con il branch **"main"**, una volta l'implementazione dei tests sia finita; 
 
