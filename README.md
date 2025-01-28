@@ -1,4 +1,4 @@
-**PROVA INTERMEDIA BATTERIA A**
+**PROVA DI LABORATORIO**
 
 Dato il progetto Maven, si chiede di:    
 
