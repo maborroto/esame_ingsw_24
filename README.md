@@ -9,7 +9,7 @@ Dato il progetto Maven, si chiede di:
 	- Gruppo: Package del progetto.
  - Modificare le informazioni generali del progetto come segue:
 	- Nome del progetto: "Esame Ingegneria 2024"
-	- URL: https://demacs.unical.it/
+	- URL del progetto: https://demacs.unical.it/
 	- Descrizione del progetto: Inserire una descrizione adeguata e interessante del progetto.
 	- Anno di inizio del progetto: 2024
 
