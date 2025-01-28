@@ -2,18 +2,17 @@
 
 Dato il progetto Maven, si chiede di:    
 
-- Scaricare il codice sorgente nel propio computer usando Git;
-
-- Testare la classe **Algorithms.java** utilizzando **JUNIT**. È richiesto l'uso di @BeforeEach o @BeforeAll a seconda dei casi;
-
-- Creare un nuovo branch con nome **"dev"** per scrivere i tests;
-  
-- Fare il merge del branch **"dev"** con il branch **"main"**, una volta l'implementazione dei tests sia finita; 
-
+- Scaricare il codice sorgente nel propRio computer usando Git;
 - Il progetto Maven deve essere impostato con queste coordinate:
 	- Versione: **1.0.0**;
 	- Nome: **ProvaIngSw_{vostra matricola}**;
 	- Gruppo: uguale al package del progetto.
+
+- Testare la classe **Inventory.java** utilizzando **JUNIT**. È richiesto l'uso di @BeforeEach o @BeforeAll a seconda dei casi;
+
+- Creare un nuovo branch con nome **"dev"** per scrivere i tests;
+  
+- Fare il merge del branch **"dev"** con il branch **"main"**, una volta l'implementazione dei tests sia finita; 
 
 - Per la consegna, si richiede di caricare il codice sorgente modificato nello stesso repository GitHub. È importante ignorare i file o cartelle relative alla configurazione dell'IDE e di Maven. In altre parole, il repository deve contenere esclusivamente la cartella "src", il file pom.xml e il README.md.
 
