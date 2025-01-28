@@ -13,13 +13,13 @@ Dato il progetto Maven, si chiede di:
 	- Descrizione del progetto: Inserire una descrizione adeguata e interessante del progetto.
 	- Anno di inizio del progetto: 2024
 
-- Testare la classe **Inventory.java** utilizzando **JUNIT**. Si consiglia l'uso di @BeforeEach, @BeforeAll, @AfterEach, o @BAfterAll a seconda dei casi;
+- Testare la classe **Inventory.java** utilizzando **JUNIT**. Si consiglia l'uso di @BeforeEach, @BeforeAll, @AfterEach, o @AfterAll a seconda dei casi;
 
-- Creare un nuovo branch con nome **"dev"** per scrivere i tests;
+- Creare un nuovo branch con il nome **"tests"** per implementare i test.
   
-- Fare il merge del branch **"dev"** con il branch **"main"**, una volta l'implementazione dei tests sia finita. Non è possibile fare il merge facendo una Pull Request di GitHub; 
-
-- Per la consegna, si richiede di caricare il codice sorgente modificato nello stesso repository GitHub. È importante ignorare i file o cartelle relative alla configurazione dell'IDE e di Maven, e caricare solo quelli files importanti.
+- Effettuare il merge del branch **"tests"** con il branch **"main"** una volta che i test siano stati completati. **Non utilizzare Pull Requests su GitHub per il merge**;
+  
+- La consegna consegna deve avvenire caricando il codice sorgente modificato nello stesso repository GitHub. È importante ignorare i file o le cartelle relative alla configurazione dell'IDE e di Maven, caricando solo i file necessari per il progetto.
   
 **PS:** Nel repository remoto devono essere presenti sia il branch **main** che il branch **dev**.
-**PS.2:** Consigliamo di leggere i commenti **Javadoc** dei diversi metodi (Testo che si trova soppra il metodo).
+**PS.2:** Si consiglia di leggere i commenti Javadoc dei metodi (testo che appare sopra ogni metodo), per comprendere meglio la logica e le aspettative dei test.
