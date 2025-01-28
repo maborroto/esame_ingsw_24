@@ -15,7 +15,7 @@ Dato il progetto Maven, si chiede di:
 
 - Testare la classe **Inventory.java** utilizzando **JUNIT**. Si consiglia l'uso di @BeforeEach, @BeforeAll, @AfterEach, o @BAfterAll a seconda dei casi;
 
-- Tutti i test devono essere scritti in un branch Creare un nuovo branch con nome **"dev"** per scrivere i tests;
+- Creare un nuovo branch con nome **"dev"** per scrivere i tests;
   
 - Fare il merge del branch **"dev"** con il branch **"main"**, una volta l'implementazione dei tests sia finita; 
 
@@ -23,14 +23,4 @@ Dato il progetto Maven, si chiede di:
 
 **PS:** Nel repository remoto devono essere presenti sia il branch main che il branch dev.
 
-**PS.2:** Consigliamo di leggere i commenti **Javadoc** dei diversi metodi ( Testo che si trova soppra il metodo).
-
-**INFORMAZIONI UTILI:**
-
-**Cos'è Palindrome**
-
-Una frase palindroma è una frase che si legge uguale da sinistra a destra e da destra a sinistra, ignorando spazi, punteggiatura e maiuscole.
-
-Ad esempio:
-  - anna
-  - Angolo bar a Bologna
+**PS.2:** Consigliamo di leggere i commenti **Javadoc** dei diversi metodi (Testo che si trova soppra il metodo).
