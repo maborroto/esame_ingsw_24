@@ -24,3 +24,5 @@ Dato il progetto Maven, si chiede di:
 **PS:** Nel repository remoto devono essere presenti sia il branch **main** che il branch **dev**.
 
 **PS.2:** Si consiglia di leggere i commenti Javadoc dei metodi (testo che appare sopra ogni metodo), per comprendere meglio la logica e le aspettative dei test.
+
+**PS.3:** Si consiglia di fare al meno un commit per test case.
