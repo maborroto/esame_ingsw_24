@@ -77,6 +77,10 @@ public class Inventory {
         return OrderStatus.ORDERED;
     }
 
+    public int getQuantity(String product) {
+        return availableProducts.get(product.toLowerCase().trim());
+    }
+
     public HashMap<String, Integer> getAvailableProducts() {
         return availableProducts;
     }
