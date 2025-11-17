@@ -1,6 +1,8 @@
 package it.unical.demacs;
 
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Represents an inventory that holds products and their quantities.
@@ -81,8 +83,7 @@ public class Inventory {
         return availableProducts.get(product.toLowerCase().trim());
     }
 
-    public HashMap<String, Integer> getAvailableProducts() {
-        return availableProducts;
+    public Map<String, Integer> getAvailableProducts() {
+        return Collections.unmodifiableMap(availableProducts);
     }
 }
-
