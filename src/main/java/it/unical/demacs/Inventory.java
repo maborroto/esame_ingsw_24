@@ -8,7 +8,7 @@ import java.util.HashMap;
  */
 public class Inventory {
 
-   private final HashMap<String, Integer> availableProducts;
+    private final HashMap<String, Integer> availableProducts;
 
     public enum OrderStatus{
         ORDERED,
@@ -75,6 +75,10 @@ public class Inventory {
         }
 
         return OrderStatus.ORDERED;
+    }
+
+    public HashMap<String, Integer> getAvailableProducts() {
+        return availableProducts;
     }
 }
 
