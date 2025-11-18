@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * Represents an inventory that holds products and their quantities.
  * This class allows adding products, making orders, and tracking the availability of items.
- */
+ * This class was created solely for educational purposes. The code is not optimized, but is designed to allow students to practice and apply JUnit features.
 public class Inventory {
 
     private final HashMap<String, Integer> availableProducts;
